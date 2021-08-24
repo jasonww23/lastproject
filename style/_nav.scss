@@ -1,0 +1,30 @@
+nav{
+    background-color: $themecolor;
+
+    ul{
+        display: flex;
+        padding-left: 1rem;
+        list-style-type: none;
+
+        li{
+            display: flex;
+
+            a{
+                padding: 0.5rem 0.75rem;
+                text-decoration: none;
+                color: #c4c4c4;
+                transition:  all 0.25s ease;
+                font-size: 1.25rem;
+
+                i{
+                    font-size: 1.25rem;
+                }
+
+                &:hover{
+                    color: white;
+                }
+                
+            }
+        }        
+    }
+}

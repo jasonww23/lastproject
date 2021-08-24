@@ -1,0 +1,13 @@
+header{
+    background-color: $themecolor;
+    width: 100%;
+    padding: 1rem;
+
+    h1{
+        font-size: $fontSize;
+
+        i{
+            font-size: $fontSize;
+        }
+    }
+}
